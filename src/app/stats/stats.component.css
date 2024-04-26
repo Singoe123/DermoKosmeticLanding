@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.firstrow {
+  height: 225px;
+}
+
+.secondrow {
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  padding: 10px 30px;
+  border-radius: 10px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  background-color: #80FBFF;
+}
+
+.black {
+  background-color: #000;
+}
+
+.firstrow > .blue {
+  width: 79%;
+}
+
+.firstrow > .black {
+  width: 20%;
+}
+
+.secondrow > .black {
+  width: 69%;
+}
+
+.secondrow > .blue {
+  width: 30%;
+}
+
+.black > h2 {
+  color: #fff;
+}
+
+.bodyText {
+  text-align: center;
+}
+
+.image {
+  position: absolute;
+  left: 400px
+}
+
+.special {
+  padding-left: 45px;
+}

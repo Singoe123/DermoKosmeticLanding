@@ -1,0 +1,43 @@
+
+.headerClass{
+  border-bottom: 1px solid grey;
+}
+
+.headerContainer {
+  display: flex;
+  margin: 0 20%;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.DKName{
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  width: auto;
+}
+
+.headerLink {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
+  margin: 0 20px;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DKLogo{
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+}

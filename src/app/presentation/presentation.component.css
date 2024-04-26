@@ -1,0 +1,35 @@
+.componentClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 476px;
+}
+
+.textContainer,
+.imageClass { 
+  height: 100%; 
+  width: 40%;
+}
+
+.title {
+  text-align: left;
+}
+
+.bodyText {
+  text-align: left;
+  width: 90%;
+  margin: 60px 0;
+}
+
+.buttonContainer > :first-child {
+  margin-left: 0;
+}
+
+.blueButton, .greyButton {
+  padding: 12px, 15px;
+}
+
+.imageClass {
+  object-fit: cover;
+  border-radius: 10px;
+}

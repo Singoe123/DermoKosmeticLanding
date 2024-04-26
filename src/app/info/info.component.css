@@ -1,0 +1,10 @@
+.chipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.chip {
+  width: 300px;
+}

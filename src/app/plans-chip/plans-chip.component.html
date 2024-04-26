@@ -1,0 +1,13 @@
+<div class="chip" [ngClass]="{'blue' : type, 'grey' : !type}">
+  <div>
+    <p class="extra" [ngClass]="{'invisible' : !type}">opción favorita</p>
+    <h2>{{chipTitle}}</h2>
+    <h3>{{price}}</h3>
+    <ul>
+      <ng-content class="list"/>
+    </ul>
+  </div>
+  <div class="buttonContainer">
+    <button class="btn" [ngClass]="{'blueButton' : type, 'greyButton' : !type}">{{buttonName}}</button>
+  </div>
+</div>

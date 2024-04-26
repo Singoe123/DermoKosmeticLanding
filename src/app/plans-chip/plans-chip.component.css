@@ -1,0 +1,53 @@
+.chip {
+  display: inline-block;
+  padding: 40px;
+  border-radius: 10px;
+  color: #333;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.blue {
+  background-color: #E5FEFF;
+}
+
+.grey {
+  background-color: #E8E8E8;
+  padding-top: 60px;
+}
+
+.invisible {
+  display: none;
+}
+
+.extra {
+  margin: 0;
+  text-align: center;
+  color: #80FBFF;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  align-self: center;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+
+ul {
+  padding-left: 0px;
+}

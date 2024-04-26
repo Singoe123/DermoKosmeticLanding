@@ -1,0 +1,40 @@
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.infoIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.bodyText {
+  text-align: justify;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.title-content {
+  display: inline-block;
+  position: relative;
+}
+
+.underline {
+  background-color: #80FBFF;
+  position: absolute;
+  bottom: 4px; /* adjust this value as needed */
+  left: 0;
+  height: 5px;
+  width: 100%;
+  z-index: -1;;
+}
+
+.titleContainer {
+  width: auto;
+  height: auto;
+}
+
