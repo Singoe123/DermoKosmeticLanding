@@ -2,18 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  height: 476px;
 }
 
-.textContainer,
-.imageClass { 
-  height: 100%; 
+.imageClass {
+  object-fit: cover;
+  overflow: hidden; 
+  border-radius: 10px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 40%;
 }
 
 .title {
   text-align: left;
 }
+
 
 .bodyText {
   text-align: left;
@@ -29,7 +36,41 @@
   padding: 12px, 15px;
 }
 
-.imageClass {
-  object-fit: cover;
-  border-radius: 10px;
+@media screen and (max-width: 1270px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttonContainer > :nth-child(2){
+    margin-left: 0px;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 950px){
+
+  .title, .bodyText {
+    text-align: center;
+  }
+
+  .componentClass {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textContainer {
+    width: 90%;
+  }
+
+  .imageClass {
+    width: 90%;
+    height: 30vw;
+    margin: 20px 0;
+    object-position: center 44%;
+  }
+  
 }

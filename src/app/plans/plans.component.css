@@ -17,5 +17,20 @@ li {
   list-style:none;
   font-size: 14px;
   text-align: center;
-  margin: 10px 0px;
+  margin: 15px 0px;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+  .chipContainer {
+    flex-direction: column;
+  }
+
+  .chip {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
 }

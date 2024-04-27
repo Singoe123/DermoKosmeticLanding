@@ -57,9 +57,69 @@
 
 .image {
   position: absolute;
-  left: 400px
+  left: 22vw
 }
 
 .special {
   padding-left: 45px;
+}
+
+@media screen and (max-width: 1500px) {
+  .componentClass {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+  }
+
+  .componentClass :nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+
+  .container {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+
+  .firstrow, .secondrow {
+    height: auto;
+  }
+
+  .firstrow > .blue {
+    width: 100%;
+  }
+
+  .firstrow > .black {
+    width: 100%;
+  }
+
+  .secondrow > .black {
+    width: 100%;
+  }
+
+  .secondrow > .blue {
+    width: 100%;
+  }
+
+  .image {
+    position: relative;
+    left: -1vw;
+  }
+
+  .special {
+    padding-left: 0;
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    .image {
+      display: none;
+    }
+    
+  }
 }

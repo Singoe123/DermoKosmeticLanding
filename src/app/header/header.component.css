@@ -3,10 +3,16 @@
   border-bottom: 1px solid grey;
 }
 
+.dropDown {
+  display: none;
+}
+
 .headerContainer {
   display: flex;
-  margin: 0 20%;
+  margin-top: 0;
+  margin-bottom: 0;
   justify-content: space-between;
+  align-items: center;
   background-color: #fff;
 }
 
@@ -40,4 +46,44 @@
   width: 25px;
   height: 25px;
   margin: 0px;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .linkContainer {
+    display: none;
+  }
+
+  .headerLink {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .dropDown {
+    display: block;
+  }
+
+
+  .register{
+    background-color: #f9f9f9;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 0px;
+    cursor: pointer;
+  }
 }

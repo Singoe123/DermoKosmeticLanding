@@ -2,9 +2,40 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
+  align-items: center;
   margin-top: 50px;
 }
 
 .chip {
-  width: 300px;
+  width: 30%;
+  margin: auto;
+}
+
+.chipContainer :nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+  .chipContainer :nth-child(1), .chipContainer :nth-child(2) {
+    margin: 25px;
+  }
+  .chip {
+    margin: 20px auto;
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .chipContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .chip {
+    margin: 20px auto;
+    width: 100%;
+  }
+  
 }
